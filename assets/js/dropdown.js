@@ -15,6 +15,7 @@
             item.style.transitionDelay = 0.03 * (index + 1) + 's';
         });
     }
+    var windowClickListener;
 
     var windowClickListener;
     const makeDropdown = function () {
